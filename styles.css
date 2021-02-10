@@ -1,0 +1,53 @@
+body {
+  font-family: 'Share Tech Mono', monospace;
+  /* font-family: 'Courier New', monospace; */
+  font-size: 14px;
+  background: #fff;
+  color: #fff;
+  /* background: #0f3854; */
+  /* background: radial-gradient(ellipse at center,  #0a2e38  0%, #000000 70%); */
+  background: #080808;
+  background-size: 100%;
+}
+
+.container {
+  margin: 20px auto;
+  width: 425px;
+  padding: 55px;
+  text-align: center;
+  color: #daf6ff;
+}
+
+#timer {
+  height: 160px;
+  line-height: 160px;
+  font-size: 80px;
+}
+
+.btn {
+  width: 120px;
+  height: 85px;
+  line-height: 85px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  user-select: none;
+}
+
+.shadow{
+  text-shadow: 0 0 40px rgba(10, 175, 230, 1),  0 0 20px rgba(10, 175, 230, 0);
+}
+
+.text {
+  margin-top: 5px;
+  font-size: 12px;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+}
+
+.inactive {
+  opacity: .6;
+}
